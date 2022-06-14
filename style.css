@@ -1,0 +1,109 @@
+/* fonts assertion begin */
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url("assets/fonts/Poppins-Regular.ttf")
+}
+
+
+/* fonts assertion end */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header .container,
+
+/* .profile, */
+
+.footer .container {
+    background-color: aquamarine;
+}
+
+.profile {
+    border-bottom: 3px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container {
+    border-top: 3px solid gray;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.section {
+    margin-left: 7%;
+}
+
+.nav-item a {
+    color: #2e853a;
+    text-decoration: none;
+    transition: color 0.5s;
+    font-size: x-large;
+}
+
+.nav-item a:hover {
+    color: #4d2323;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.footer-item {
+    padding: 0 15px;
+    line-height: 40px;
+}
+
+.school-image,
+.github-image {
+    height: 20px;
+}
+
+.avatar {
+    height: 250px;
+    margin: 1% 5%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.profile-title {
+    font-size: xx-large;
+}
+
+.profile-job-title {
+    font-size: x-large;
+}
